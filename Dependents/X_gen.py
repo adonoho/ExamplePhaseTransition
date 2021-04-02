@@ -5,10 +5,11 @@
 Generating K-sparse signals of dimension n*1
 """
 
-import numpy as np
 import random
+import numpy as np
 from ProblemSpec import ProblemInit
-                   
+
+
 def X_generate(n,k):
     I=ProblemInit()
     X=np.zeros((n,1))

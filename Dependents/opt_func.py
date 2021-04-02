@@ -7,15 +7,11 @@ Optimization Module
 
 """
 
-import numpy as np
-import random
-import os
-import time
-
-import csv
 import cvxpy as cp
+import numpy as np
+
 from ProblemSpec import ProblemInit
-from X_gen import X_generate
+
 
 def optimization_function(A,X,m):
     I=ProblemInit()

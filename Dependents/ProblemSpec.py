@@ -7,10 +7,7 @@ Initialization Routine
 """
 
 import numpy as np
-from numpy import linalg as LA
-import random
-import csv
- 
+
 
 def ProblemInit():
     class ProbInit:
@@ -22,6 +19,5 @@ def ProblemInit():
             self.mu=0.0
             self.sigma=1
     Init=ProbInit();
-    
+
     return Init;
-   

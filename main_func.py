@@ -6,7 +6,8 @@ Main module for phase transition
 """
 
 
-from Dependents import ProblemInit, inner_loop
+from ProblemSpec import ProblemInit
+from loop import inner_loop
 
 S=ProblemInit()
 m=S.m
